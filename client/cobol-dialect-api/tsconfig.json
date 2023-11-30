@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "module": "es2022",
+    "verbatimModuleSyntax": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "types": [],
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "files": ["src/index.ts"]
+}
