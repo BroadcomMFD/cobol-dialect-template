@@ -25,7 +25,9 @@
   "contributes": {
     "grammars": [
       {
-        "injectTo": ["source.cobol"],
+        "injectTo": [
+          "source.cobol"
+        ],
         "scopeName": "example-cobol.injection",
         "path": "./syntaxes/example.injection.json"
       }
@@ -57,6 +59,6 @@
     "BroadcomMFD.cobol-language-support"
   ],
   "dependencies": {
-    "@code4z/cobol-dialect-api": "file:../cobol-dialect-api"
+    "@code4z/cobol-dialect-api": "https://packages.broadcom.com/artifactory/brightside/%40code4z/cobol-dialect-api/-/%40code4z/cobol-dialect-api-1.0.0.tgz"
   }
 }
