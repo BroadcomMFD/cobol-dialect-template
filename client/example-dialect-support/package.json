@@ -59,6 +59,6 @@
     "BroadcomMFD.cobol-language-support"
   ],
   "dependencies": {
-    "@code4z/cobol-dialect-api": "https://packages.broadcom.com/artifactory/brightside/%40code4z/cobol-dialect-api/-/%40code4z/cobol-dialect-api-1.0.0.tgz"
+    "@code4z/cobol-dialect-api": "^1.0.0"
   }
 }

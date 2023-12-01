@@ -1,2 +1,4 @@
 /server/.idea/
 /server/dialect-example/target/
+/out/
+client/example-dialect-support/server/dialect-example.jar
