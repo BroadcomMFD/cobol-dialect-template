@@ -16,6 +16,7 @@ export async function activate(context: vscode.ExtensionContext) {
   const jar = vscode.Uri.joinPath(
     extensionUri,
     "server",
+    "jar",
     "dialect-example.jar"
   );
   const v1Api = await getV1Api(extensionId);

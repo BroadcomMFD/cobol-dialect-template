@@ -21,7 +21,7 @@
     "workspaceContains:/.c4z"
   ],
   "publisher": "BroadcomMFD",
-  "main": "./out/extension.js",
+  "main": "./dist/extension.js",
   "contributes": {
     "grammars": [
       {
@@ -35,13 +35,14 @@
     "commands": []
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "npm run build",
+    "build": "esbuild src/extension.ts --bundle --sourcemap --target=node16.17.1,chrome108 --outdir=dist --external:vscode --format=cjs",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "package": "vsce package"
+    "package": "vsce package -o ../../vsix/dialect-example.vsix"
   },
   "devDependencies": {
     "@types/glob": "^8.0.0",
@@ -50,6 +51,7 @@
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "@vscode/vsce": "2.18.0",
+    "esbuild": "^0.19.8",
     "eslint": "^8.28.0",
     "glob": "^8.0.3",
     "tslint": "^5.18.0",
