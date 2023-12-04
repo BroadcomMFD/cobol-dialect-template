@@ -34,7 +34,7 @@ This script will build server and client parts of the extension and pack them in
 
 ### Install Dialect Add-On Example
 
-If build was successed the Dialect Add-On Example Extension (`.vsix` file) will be situated in the `out` folder.
+If build was successfull the Dialect Add-On Example Extension (`.vsix` file) will be situated in the `vsix` folder.
 To install it into the **`VSCode`** do following steps:
 
 1. Open **`VSCode`**
