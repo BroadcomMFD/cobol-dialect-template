@@ -42,5 +42,5 @@ To install it into the **`VSCode`** do following steps:
 1. Open `...` menu and choose "install from VSIX..."
 1. Choose `.vsix` file with Dialect Add-On Example
 
-Now you example dialect is ready to use
+Now you example dialect is ready to use.
 You can find more information and a sample code in the details to the installed "COBOL Dialect Support Example" extension
