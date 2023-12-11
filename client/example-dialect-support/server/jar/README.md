@@ -19,7 +19,7 @@ Put in this folder example dialect jar file with following name convention:
 ```
 dialect-<dialect name>.jar
 ```
-In Linux environment be sure that the server folder haveexecute permission, in case simply run the command
+In Linux environment be sure that the server folder has execute permission, in case simply run the command
 
 ```
 chmod -R 755 server
