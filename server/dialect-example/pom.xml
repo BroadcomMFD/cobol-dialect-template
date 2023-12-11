@@ -15,7 +15,7 @@
         <lombok.version>1.18.30</lombok.version>
         <maven.antlr4.plugin.version>4.7</maven.antlr4.plugin.version>
         <maven.resources.plugin.version>3.0.2</maven.resources.plugin.version>
-        <dialect.api.version>1.0.1</dialect.api.version>
+        <dialect.api.version>1.0.2</dialect.api.version>
     </properties>
 
     <repositories>
