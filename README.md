@@ -38,7 +38,7 @@ The example dialect add-on is ready to use.
 
 ## Sample Code
 
-The example extension provides support for several custom statements. For more information, see the extension's readme file in the VS Code extensions menu, or in (/clients).
+The example extension provides support for several custom statements. For more information, see the extension's readme file in the VS Code extensions menu, or in the **client/example-dialect-support** folder of this git repository.
 
 Use the following sample code to test the functionalities of the example dialect add-on:
 
