@@ -26,7 +26,7 @@ This script builds the server and client parts of the extension and packs them i
 
 ## Install the VS Code Extension
 
-If the build is successful, the dialect add-on Extension (`.vsix` file) is situated in the `vsix` folder.
+If the build is successful, the dialect add-on Extension (`.vsix` file) is situated in the **/vsix** folder.
 To install it on VS Code, do the following:
 
 1. Open the **Extensions** tab
