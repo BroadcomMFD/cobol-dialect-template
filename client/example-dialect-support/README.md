@@ -1,14 +1,14 @@
 # COBOL Dialect Support Example
     
-COBOL Dialect Support Example is an sample add-on for the [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support) extension. This add-on enables language server protocol features for a dummy dialects which supports following syntaxes.
+The COBOL Dialect Support Example is a sample add-on for the [COBOL Language Support](https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support) extension. This add-on enables language server protocol features for a dummy dialect which supports the following custom statements:
 
 - Shift statement: EXAMPLE SHIFT <identifier> TO <identifier>.
 - Bitwise shift statement: EXAMPLE BITWISE SHIFT <identifier> (RIGHT|LEFT) <number>.
-- Inject statement: EXAMPLE INJECT <coybook>
+- Inject statement: EXAMPLE INJECT <copybook>
 - Untie statement: EXAMPLE UNTIE <identifier>
 - Unset statement: EXAMPLE UNSET <conditional-identifier>
 - Level 100 statement: EXAMPLE 100 <iden>
-    Level 100 introduces variables in following format
+    Level 100 introduces variables in the following format
 		01 <iden>.
 			05 <iden>_1ST PIC X(9).
 			05 <iden>_2ND PIC V(2).
