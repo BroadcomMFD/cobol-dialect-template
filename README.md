@@ -1,8 +1,8 @@
-# COBOL Language Support Dialect Extension Template
+# COBOL Language Support Dialect Add-on Template
 
 [COBOL Language Support](https://github.com/eclipse-che4z/che-che4z-lsp-for-cobol) enhances the COBOL programming experience on Visual Studio Code. The extension leverages the language server protocol to provide autocomplete, syntax highlighting and coloring, and diagnostic features for COBOL code and copybooks. 
 
-Many companies have their own COBOL preprocessors which complement or modify standard IBM enterprise COBOL with custom statements and keywords. In our documentation, we refer to these preprocessors as "dialects". Support for COBOL dialects is enabled by installing add-on extensions. Some dialect extensions are available on the VS Code marketplace, but you can also make your own custom dialect extensions. This repository provides a template for a custom COBOL Language Support dialect extension.
+Many companies have their own COBOL preprocessors which complement or modify standard IBM enterprise COBOL with custom statements and keywords. In our documentation, we refer to these preprocessors as "dialects". Support for COBOL dialects is enabled by installing add-on extensions. Some dialect extensions are available on the VS Code marketplace, but you can also make your own custom dialect add-ons. This repository provides a template for a custom COBOL Language Support dialect add-on.
 
 ## Prerequisites
 
@@ -14,25 +14,24 @@ To build a dialect add-on extension you need:
 * npm
 * (Windows only) PowerShell
 
-## Build VSCode Extension With Dialect Add-On Example
+## Build the VSCode Extension
 
-Clone repository and run following script from the root repository folder:
+To build your VS Code Extension, clone this repository and run the following script from the root repository folder:
 
 ```bash
 sh build.sh
 ```
 
-This script will build server and client parts of the extension and pack them into the **`VSCode`** Extension (`.vsix` file)
+This script builds the server and client parts of the extension and packs them into a VS Code Extension (`.vsix` file)
 
-## Install Dialect Add-On Example
+## Install the VS Code Extension
 
-If build was successfull the Dialect Add-On Example Extension (`.vsix` file) will be situated in the `vsix` folder.
-To install it into the **`VSCode`** do following steps:
+If the build is successful, the dialect add-on Extension (`.vsix` file) is situated in the `vsix` folder.
+To install it on VS Code, do the following:
 
-1. Open **`VSCode`**
-1. Open `Extension` tab
-1. Open `...` menu and choose "install from VSIX..."
-1. Choose `.vsix` file with Dialect Add-On Example
+1. Open the **Extensions** tab
+1. In the **...** menu, select **install from VSIX...**
+1. Select the `.vsix` file with your dialect add-on.
 
-Now you example dialect is ready to use.
+Now your dialect add-on is ready to use.
 You can find more information and a sample code in the details to the installed "COBOL Dialect Support Example" extension
