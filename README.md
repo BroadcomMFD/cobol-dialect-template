@@ -36,7 +36,7 @@ To install the extension on VS Code, do the following:
 
 The example dialect add-on is ready to use.
 
-## Sample Code
+## Test the Example VS Code Extension
 
 The example extension provides support for several custom statements. For more information, see the extension's readme file in the VS Code extensions menu, or in the **client/example-dialect-support** folder of this git repository.
 
