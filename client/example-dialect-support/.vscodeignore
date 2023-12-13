@@ -29,6 +29,6 @@
 !dist/extension.js
 !dist/extension.js.map
 # ** dialect snippets
-!snippets.json
+!snippets/example-snippets.json
 # ** dialect implementation
 !server/jar/dialect-example.jar
