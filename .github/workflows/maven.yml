@@ -40,9 +40,3 @@ jobs:
         npm --prefix ./client/example-dialect-support/ ci
         npm --prefix ./client/example-dialect-support/ run package -- -o ./vsix/dialect-example.vsix
           
-    - name: Upload vsix
-      uses: actions/upload-artifact@v3
-      with:
-        if-no-files-found: warn
-        name: vsix-dialect-template
-        path: './vsix/dialect-example.vsix'
