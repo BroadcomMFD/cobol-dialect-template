@@ -44,5 +44,5 @@ jobs:
 
     - name: Package vsix
       run: |
-        npm --prefix ./client/example-dialect-support/ run package -- -o ./vsix/dialect-example.vsix
+        npm --prefix ./client/example-dialect-support/ run package -- -o $PWD/vsix/dialect-example.vsix
           
