@@ -38,8 +38,11 @@ jobs:
       run: |
         npm --prefix ./client/example-dialect-support/ ci
 
-    - name: Package vsix
+    - name: Copy vsix
       run: |
         cp ./server/dialect-example/target/dialect-example.jar ./client/example-dialect-support/server/jar
+
+    - name: Package vsix
+      run: |
         npm --prefix ./client/example-dialect-support/ run package -- -o ./vsix/dialect-example.vsix
           
