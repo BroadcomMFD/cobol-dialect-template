@@ -34,9 +34,12 @@ jobs:
     - name: Build with Maven
       run: mvn -B clean package --file ./server/dialect-example/pom.xml
 
+    - name: Build vsix
+      run: |
+        npm --prefix ./client/example-dialect-support/ ci
+
     - name: Package vsix
       run: |
         cp ./server/dialect-example/target/dialect-example.jar ./client/example-dialect-support/server/jar
-        npm --prefix ./client/example-dialect-support/ ci
         npm --prefix ./client/example-dialect-support/ run package -- -o ./vsix/dialect-example.vsix
           
